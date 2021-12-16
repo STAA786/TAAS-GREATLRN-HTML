@@ -13,3 +13,9 @@
 body{
     background-color: lightcoral;
 }
+h1{
+    text-align: center;
+}
+a:hover{
+    color: purple;
+}
