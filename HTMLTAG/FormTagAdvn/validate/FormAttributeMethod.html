@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Otp</title>
+</head>
+<style>
+    .form1{
+        margin-left: 600px;
+        background-color: powderblue;
+        margin-right: 600px;
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-bottom: 50px;
+        
+    }
+    h3{
+        margin-left: 100px;
+    }
+    .lb{
+        background-color:powderblue;
+    }
+    #sp{
+        margin-left: 70px;
+    }
+    button:active{
+        background-color:purple;
+    }
+    .mid{
+        margin-left: 100px;
+    }
+    button{
+        background-color: royalblue;
+    }
+
+</style>
+<body>
+    <div>
+        <form class="form1" action="./FormAttMsgLg.html" novalidate method="post" > <!----we can assign validate and no validate to form tag and method=post--->
+             <h3>Sign up</h3> <br><br>
+            <label class="lb" id="my">Name :</label>
+            <input type="text" name="name" id="th" placeholder="enter your name"><br><br>
+            <label class="lb" id="this">SurName :</label>
+            <input type="text" name="surname" id="hh" placeholder="enter last name"><br><br>
+            <label class="lb">Gender :</label>
+            Male<input type="radio" name="Gender" id="">
+            Female <input type="radio" name="Gender" id=""><br><br>
+            <label class="lb">Password :</label>
+            <input type="password" name="password" placeholder="enter password" id=""> <br><br>
+            <input type="password" name="password" placeholder="Re-enter password" id="sp"> <br><br>
+            <label class="lb">Mobile No.</label>
+            <input type="number" name="number" id="" placeholder="enter mob no."> <br><br>
+            <button>OTP CHECK</button>
+            <input type="password" name="otp" id="" placeholder="enter otp"><br><br>
+            <button class="mid">Submit</button>
+
+
+             
+
+        </form>
+    </div>
+</body>
+</html>
